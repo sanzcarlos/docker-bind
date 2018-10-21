@@ -18,4 +18,4 @@ RUN apk update && \
 EXPOSE 53/udp
 EXPOSE 53/tcp
 
-CMD["/usr/sbin/named -g"]
+CMD ["/usr/sbin/named -g"]
