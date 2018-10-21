@@ -12,7 +12,7 @@ LABEL org.label-schema.vendor = "Personal" \
 RUN apk update && \
     apk upgrade && \
     apk add bind && \
-    rm -rf /var/cache/apk/* \\
+    rm -rf /var/cache/apk/* \
     touch /etc/bind/named.conf
 
 EXPOSE 53/udp
